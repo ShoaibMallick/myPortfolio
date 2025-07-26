@@ -20,8 +20,6 @@ export default function Navbar() {
       >
         Shoaib Mallick
       </NavLink>
-
-      {/* Menu Items */}
       <div className="flex space-x-6">
         {navItems.map(({ name, to }) => (
           <NavLink
@@ -34,10 +32,9 @@ export default function Navbar() {
                   : "hover:bg-amber-200 hover:text-amber-900"
               }`
             }
-            end={to === "/"} // 'end' prop for exact matching on Home
+            end={to === "/"}
           >
             {name}
-            {/* Optional Underline Animation: you can add if you want */}
           </NavLink>
         ))}
       </div>

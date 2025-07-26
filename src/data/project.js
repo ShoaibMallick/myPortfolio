@@ -8,6 +8,8 @@ const projectData = [
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.`,
     img: noImage,
+    TechStack:"React, HTML, CSS, JavaScript",
+    Link:"https://www.google.com/"
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ const projectData = [
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.`,
     img: noImage,
+    TechStack:"React, HTML, CSS, JavaScript",
+    Link:"https://www.google.com/"
   },
   {
     id: 3,
@@ -24,6 +28,8 @@ const projectData = [
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.`,
     img: noImage,
+    TechStack:"React, HTML, CSS, JavaScript",
+    Link:"https://www.google.com/"
   },
   {
     id: 4,
@@ -32,6 +38,8 @@ const projectData = [
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.`,
     img: noImage,
+    TechStack:"React, HTML, CSS, JavaScript",
+    Link:"https://www.google.com/"
   },
   {
     id: 5,
@@ -40,6 +48,8 @@ const projectData = [
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.`,
     img: noImage,
+    TechStack:"React, HTML, CSS, JavaScript",
+    Link:"https://www.google.com/"
   },
 ];
 

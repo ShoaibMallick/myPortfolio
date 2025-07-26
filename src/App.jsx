@@ -14,6 +14,7 @@ import {
 import Dashboard from "./Components/Dashboard";
 import PagenotFound from "./Components/PagenotFound";
 import Contact from "./Components/Contact";
+import ProjectDetails from "./Components/ProjectDetails";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Dashboard />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+         <Route path="/projectDetails/:id" element={<ProjectDetails />}></Route>
         <Route path="*" element={<PagenotFound />}></Route>
       </Routes>
       <Footer />
